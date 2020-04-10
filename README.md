@@ -1,1 +1,80 @@
-# piggy-vest-sign-up-page-
+
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+     <title><strong>SIGN UP</strong></title>
+     
+</head>
+<style>
+form{box-sizing: inherit;
+
+--transition-duration: 250ms
+margin: 8px 3px;
+overflow: visible;
+background: 0 0;
+
+line-height: 40px;
+border-top-left-radius: .95rem;
+border-top-right-radius: .95rem;
+border-bottom-right-radius: .95rem;
+
+flex-direction: column;
+font-family: 'Times New Roman';
+font-weight: lighter;
+font-size: small;
+margin-top: 100px;
+margin-left: 100px;
+margin-bottom: 100px;
+padding: 3%;
+
+background-color: #fff;
+font-size: medium;
+white-space: normal;
+width: 70%;
+}
+img{ width: 200px;
+padding: 3%; border: white; vertical-align: 4%; }
+body{background-color: #062863;}
+input[type= "button"] {cursor: pointer; font: sans-serif;
+width: 100%;  color: rgb(237, 237, 248);padding:20px  40px 20px ; background-color: #083e9e; 
+}
+::placeholder{ padding: 3%; color: rgb(184, 179, 179); width: 100%;}
+h1 {text-align: center; color: rgb(7, 7, 129); font-weight: lighter;}
+h2{text-align:center; font-size: medium; color: rgb(22, 22, 22); font-weight: lighter;
+ font-style: normal;}
+h3{text-align: center;font-weight: lighter; font-size: small; color: white;}
+
+</style>
+<body>
+    <div class="form wrap">
+       
+            <img src="piggy-png_1_.png"
+              alt="logo"
+
+            >
+   
+            <form>
+            <h1>Create a secure account</h1>
+            <h2>welcome to the future of savings&investments</h2>
+            <p>Full Name</p> 
+           <input type="text" placeholder="fullname">
+           <p>Email Address</p>
+           <input type="email" placeholder="email address">
+            <p>phone Number</p>
+           <input type="number" placeholder="phone number">
+            <p>password</p>
+           <input type="password" placeholder="password">
+           <p>Referrer Phone or Promo code (Optional)</p>
+           <input type="number"placeholder="Referrer Phone or Promo Code ">
+           <p>How Did You Hear About Us? (Optional)</p>
+           <input type="text" placeholder="click To Select">
+<p></p>
+           <input type="button" value="create account">
+        </form>
+        
+    </div>
+    <h3>Already have an account? log in</h3>
+</body>
+</html>
